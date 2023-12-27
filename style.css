@@ -23,6 +23,30 @@ body {
     position: relative;
 }
 
+.build-details {
+    position:fixed;
+    bottom:0;
+    right:0;
+    z-index:10;
+    padding:7px 12px 5px 15px;
+    border-top-left-radius:5px;
+    font-size:7px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    background:none #2B3242!important;
+    color:#fff!important;
+    opacity:1;
+    background:none
+}
+.build-details span {
+    display:inline-block;
+    padding-left:3px;
+    font-size:10px;
+    font-weight:600;
+    letter-spacing:normal;
+    vertical-align:baseline
+}
+
 #profilePicture, #profilePicture img {
     position: relative;
     width: 96px;
